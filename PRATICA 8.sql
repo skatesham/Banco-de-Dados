@@ -39,7 +39,16 @@ SELECT * FROM CD_CATEGORIA;
 
 SELECT C.CD_NOME, D.CAT_CODIGO FROM CD C INNER JOIN CD_CATEGORIA D ON C.CD_PRECO_VENDA BETWEEN D.MENOR_PRECO AND D.MEIOR_PRECO;
 
-/**/
-/**/
-/**/
-/**/
+/*10. Listar o nome do CD indicado para cada CD gravado.*/
+
+/*11. A tabela CD_CATEGORIA possui 3 categorias cadastradas, conforme mostra a figura abaixo. */
+
+/*12. Liste o código, nome, preço de venda, o tempo de duração total, o nome da gravadora do CD de código 101.*/
+
+/*13. Listar o nome das gravadoras que possuem mais de 2 Cds relacionados a ela.*/
+
+/*14. Listar o nome da música de maior duração.*/
+
+/*15. Listar o nome das músicas, a faixa e o nome do CD em que está a música, apenas os Cds de código 102 e 103.*/
+
+/*16. Listar (um único resultado) os autores (código autor, nome autor) com código menor que 10 e as musicas (código musica, nome musica) com código menor que 15. (Utilizarem UNION). */
